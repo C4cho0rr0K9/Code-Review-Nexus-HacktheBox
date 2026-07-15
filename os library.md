@@ -81,8 +81,3 @@ else:
 [✗] Temporal file 'temp_data_trash' deleted successfully
 
 ```
-
-  ╔══════════════════════════════════════════════════════════════╗
-  ║     Remember: import os at the top of your script!           ║
-  ║     os.path.join() is your friend for cross-platform paths   ║
-  ╚══════════════════════════════════════════════════════════════╝
