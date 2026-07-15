@@ -1,6 +1,8 @@
 ## 🔹 1. `os.getcwd()` — Where are we?
 > **Linux equivalent:** `pwd`
 
+###Example:
+
 ```python
 whereWeAre = os.getcwd()
 print(f"📍 Exact Coordinates: {whereWeAre}")
@@ -9,7 +11,7 @@ print(f"📍 Exact Coordinates: {whereWeAre}")
 ```
 
 ##🔹 2. os.listdir() — What's in the folder?
-Linux equivalent: ls / dir
+>Linux equivalent: ls / dir
 
 ###Example
  ```python
@@ -27,7 +29,7 @@ for item in content:
 
 ```
 ###🔹 3. os.mkdir() — Create a new folder
-Linux equivalent: mkdir
+>Linux equivalent: mkdir
 
 ###Example:
 
@@ -45,7 +47,7 @@ else:
 ```
 
 ##🔹 4. os.path.exists() — Does the file/folder exist?
-Linux equivalent: test -e
+>Linux equivalent: test -e
 
 ###Example:
 
@@ -61,12 +63,11 @@ else:
 ``` 
 
 ##🔹 5. os.remove() — Delete a file
-Linux equivalent: rm
-nameoffile = "temp_data_trash"
-
+>Linux equivalent: rm
 ###Example:
 
 ```python
+nameoffile = "temp_data_trash"
 if os.path.exists(nameoffile):
     try:
         os.remove(nameoffile)
