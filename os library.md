@@ -60,10 +60,6 @@ Example:
 
 
 
-# ═══════════════════════════════════════
-#  🧰 THE FANTASTIC FIVE
-#  Survival Kit of the `os` Library
-# ═══════════════════════════════════════
 
                  ███████╗ █████╗ ███╗   ██╗████████╗ █████╗ ███████╗████████╗██╗ ██████╗
                  ██╔════╝██╔══██╗████╗  ██║╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝██║██╔════╝
@@ -89,8 +85,11 @@ whereWeAre = os.getcwd()
 print(f"📍 Exact Coordinates: {whereWeAre}")
 📂 Output:
 📍 Exact Coordinates: /home/user/projects/awesome_app
+```
+
 🔹 2. os.listdir() — What's in the folder?
 Linux equivalent: ls / dir
+ ``python
 print("🔍 Escaneando el directorio actual...")
 content = os.listdir(".")  # current folder
 for item in content:
@@ -101,9 +100,14 @@ for item in content:
   ├── config.json
   ├── assets/
   ├── README.md
-  └── .gitignore
+  └── .gitignor
+
+  ```
 🔹 3. os.mkdir() — Create a new folder
 Linux equivalent: mkdir
+
+#Example:
+```python
 foldername = "security_reports"
 
 if not os.path.exists(foldername):
@@ -113,6 +117,9 @@ else:
     print(f"[✓] The folder '{foldername}' already exists, skipping")
 📂 Output:
 [✓] The folder 'security_reports' was created
+
+```
+
 🔹 4. os.path.exists() — Does the file/folder exist?
 Linux equivalent: test -e
 nameoffile = "config.file"
