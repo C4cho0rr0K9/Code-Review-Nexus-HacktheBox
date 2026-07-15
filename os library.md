@@ -13,7 +13,7 @@ print(f"📍 Exact Coordinates: {whereWeAre}")
 ## 🔹 2. os.listdir() — What's in the folder?
 > **Linux equivalent:** ls / dir
 
-### Example
+### Example:
  ```python
 print("🔍 Escaneando el directorio actual...")
 content = os.listdir(".")  # current folder
@@ -81,6 +81,7 @@ else:
 [✗] Temporal file 'temp_data_trash' deleted successfully
 
 ```
+
   ╔══════════════════════════════════════════════════════════════╗
   ║     Remember: import os at the top of your script!           ║
   ║     os.path.join() is your friend for cross-platform paths   ║
